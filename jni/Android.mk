@@ -53,7 +53,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 #myapp
 include $(CLEAR_VARS)
 LOCAL_MODULE := myffmpeg
-LOCAL_SRC_FILES := android_video.c
+LOCAL_SRC_FILES := my_player.c
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/include/ffmpeg
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/include/libyuv
 LOCAL_LDLIBS := -llog -landroid

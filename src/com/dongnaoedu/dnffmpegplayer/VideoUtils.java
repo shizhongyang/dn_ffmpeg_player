@@ -4,6 +4,8 @@ public class VideoUtils {
 
 	public native static void decode(String input,String output);
 	
+	
+	
 	static{
 		System.loadLibrary("avutil-54");
 		System.loadLibrary("swresample-1");

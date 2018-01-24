@@ -23,7 +23,15 @@
 	       android:layout_height="wrap_content"
 	       android:text="开始"
 	       android:onClick="mPlay" />
+       <Button
+            android:id="@+id/btn2"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="音频"
+	       android:onClick="mDecode" />
+       
         <Button
+              android:id="@+id/btn3"
 	       android:layout_width="wrap_content"
 	       android:layout_height="wrap_content"
 	       android:text="开始"
